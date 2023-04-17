@@ -1,0 +1,26 @@
+---
+title: "Temp1"
+author: "Isuru"
+date: "2023-02-08"
+output: word_document
+---
+
+
+
+
+
+```{r}
+library(tidyverse)
+
+
+```
+```{r}
+co2_rating <- read_csv(file = "D:/3rd YR SEM 2/ST306/R projects/ST306_Temp1/Data/MY2021 Fuel Consumption Ratings.csv")
+```
+```{r}
+str(co2_rating)
+```
+```{r}
+co2_rating 
+```
+
